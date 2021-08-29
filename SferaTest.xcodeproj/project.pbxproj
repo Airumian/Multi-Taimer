@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		D7C2F09F26DA2F1300F94E08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C2F09E26DA2F1300F94E08 /* AppDelegate.swift */; };
 		D7C2F0A126DA2F1300F94E08 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C2F0A026DA2F1300F94E08 /* SceneDelegate.swift */; };
-		D7C2F0A326DA2F1300F94E08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C2F0A226DA2F1300F94E08 /* ViewController.swift */; };
-		D7C2F0A626DA2F1300F94E08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7C2F0A426DA2F1300F94E08 /* Main.storyboard */; };
 		D7C2F0A826DA2F1600F94E08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7C2F0A726DA2F1600F94E08 /* Assets.xcassets */; };
 		D7C2F0AB26DA2F1600F94E08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7C2F0A926DA2F1600F94E08 /* LaunchScreen.storyboard */; };
+		D7C2F0B326DA2FCD00F94E08 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C2F0B226DA2FCD00F94E08 /* UIViewController+Extensions.swift */; };
+		D7C2F0B626DA2FD400F94E08 /* CustomTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C2F0B426DA2FD400F94E08 /* CustomTimer.swift */; };
+		D7C2F0B926DA2FE100F94E08 /* MainButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C2F0B826DA2FE000F94E08 /* MainButtonTableViewCell.swift */; };
+		D7C2F0BB26DA2FE700F94E08 /* TextFieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C2F0BA26DA2FE700F94E08 /* TextFieldTableViewCell.swift */; };
+		D7C2F0BF26DA2FF400F94E08 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C2F0BE26DA2FF400F94E08 /* MainViewController.swift */; };
+		D7C2F0C926DA665900F94E08 /* TimerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C2F0C826DA665900F94E08 /* TimerTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D7C2F09B26DA2F1300F94E08 /* SferaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SferaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7C2F09E26DA2F1300F94E08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7C2F0A026DA2F1300F94E08 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D7C2F0A226DA2F1300F94E08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D7C2F0A526DA2F1300F94E08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D7C2F0A726DA2F1600F94E08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7C2F0AA26DA2F1600F94E08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7C2F0AC26DA2F1600F94E08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7C2F0B226DA2FCD00F94E08 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		D7C2F0B426DA2FD400F94E08 /* CustomTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTimer.swift; sourceTree = "<group>"; };
+		D7C2F0B826DA2FE000F94E08 /* MainButtonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainButtonTableViewCell.swift; sourceTree = "<group>"; };
+		D7C2F0BA26DA2FE700F94E08 /* TextFieldTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldTableViewCell.swift; sourceTree = "<group>"; };
+		D7C2F0BE26DA2FF400F94E08 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		D7C2F0C826DA665900F94E08 /* TimerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +66,73 @@
 			children = (
 				D7C2F09E26DA2F1300F94E08 /* AppDelegate.swift */,
 				D7C2F0A026DA2F1300F94E08 /* SceneDelegate.swift */,
-				D7C2F0A226DA2F1300F94E08 /* ViewController.swift */,
-				D7C2F0A426DA2F1300F94E08 /* Main.storyboard */,
-				D7C2F0A726DA2F1600F94E08 /* Assets.xcassets */,
-				D7C2F0A926DA2F1600F94E08 /* LaunchScreen.storyboard */,
-				D7C2F0AC26DA2F1600F94E08 /* Info.plist */,
+				D7C2F0C126DA3F3200F94E08 /* Model */,
+				D7C2F0C726DA400700F94E08 /* UILayer */,
+				D7C2F0C526DA3FAE00F94E08 /* ViewControllers */,
+				D7C2F0C226DA3F4200F94E08 /* Storyboards */,
+				D7C2F0C026DA3F1A00F94E08 /* Extensions */,
+				D7C2F0C326DA3F6E00F94E08 /* SupportingFiles */,
 			);
 			path = SferaTest;
+			sourceTree = "<group>";
+		};
+		D7C2F0C026DA3F1A00F94E08 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D7C2F0B226DA2FCD00F94E08 /* UIViewController+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D7C2F0C126DA3F3200F94E08 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D7C2F0B426DA2FD400F94E08 /* CustomTimer.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D7C2F0C226DA3F4200F94E08 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				D7C2F0A926DA2F1600F94E08 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		D7C2F0C326DA3F6E00F94E08 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				D7C2F0AC26DA2F1600F94E08 /* Info.plist */,
+				D7C2F0A726DA2F1600F94E08 /* Assets.xcassets */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		D7C2F0C526DA3FAE00F94E08 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D7C2F0BE26DA2FF400F94E08 /* MainViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D7C2F0C626DA3FDC00F94E08 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				D7C2F0BA26DA2FE700F94E08 /* TextFieldTableViewCell.swift */,
+				D7C2F0B826DA2FE000F94E08 /* MainButtonTableViewCell.swift */,
+				D7C2F0C826DA665900F94E08 /* TimerTableViewCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		D7C2F0C726DA400700F94E08 /* UILayer */ = {
+			isa = PBXGroup;
+			children = (
+				D7C2F0C626DA3FDC00F94E08 /* TableViewCells */,
+			);
+			path = UILayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +194,6 @@
 			files = (
 				D7C2F0AB26DA2F1600F94E08 /* LaunchScreen.storyboard in Resources */,
 				D7C2F0A826DA2F1600F94E08 /* Assets.xcassets in Resources */,
-				D7C2F0A626DA2F1300F94E08 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +204,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7C2F0A326DA2F1300F94E08 /* ViewController.swift in Sources */,
+				D7C2F0B326DA2FCD00F94E08 /* UIViewController+Extensions.swift in Sources */,
+				D7C2F0B626DA2FD400F94E08 /* CustomTimer.swift in Sources */,
+				D7C2F0BB26DA2FE700F94E08 /* TextFieldTableViewCell.swift in Sources */,
 				D7C2F09F26DA2F1300F94E08 /* AppDelegate.swift in Sources */,
 				D7C2F0A126DA2F1300F94E08 /* SceneDelegate.swift in Sources */,
+				D7C2F0C926DA665900F94E08 /* TimerTableViewCell.swift in Sources */,
+				D7C2F0B926DA2FE100F94E08 /* MainButtonTableViewCell.swift in Sources */,
+				D7C2F0BF26DA2FF400F94E08 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D7C2F0A426DA2F1300F94E08 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D7C2F0A526DA2F1300F94E08 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D7C2F0A926DA2F1600F94E08 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -288,7 +352,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7W7SKQ88EW;
-				INFOPLIST_FILE = SferaTest/Info.plist;
+				INFOPLIST_FILE = SferaTest/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +371,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7W7SKQ88EW;
-				INFOPLIST_FILE = SferaTest/Info.plist;
+				INFOPLIST_FILE = SferaTest/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
