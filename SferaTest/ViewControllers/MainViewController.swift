@@ -170,7 +170,7 @@ private extension MainViewController {
 				for: indexPath) as? MainButtonTableViewCell
 		else { return MainButtonTableViewCell() }
 		
-		let title = isTimerEnabled ? "Остановить таймеры" : "Возобновить таймеры"
+		let title = isTimerEnabled ? "Остановить" : "Возобновить"
 		
 		cell.configure(title: title, isEnabled: true)
 		
